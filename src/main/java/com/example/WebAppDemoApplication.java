@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ImportResource("applicationContext.xml")
-@ComponentScan(basePackages= {"com.example.mvc"})
+@ComponentScan(basePackages= {"com.example.controller"})
 public class WebAppDemoApplication {
 
 	public static void main(String[] args) {
