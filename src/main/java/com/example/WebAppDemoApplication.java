@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ImportResource("webapp/WEB-INF/applicationContext.xml")
+@ImportResource("applicationContext.xml")
 public class WebAppDemoApplication {
 
 	public static void main(String[] args) {
